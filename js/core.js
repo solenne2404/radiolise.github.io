@@ -1998,7 +1998,7 @@ i18next
       else {
         startStream(currentlist[$(this).index()]);
       }
-    }).on("click", "#stations td:eq(2)", function(e) {
+    }).on("click", "#stations td:nth-child(3)", function(e) {
       e.stopPropagation();
     });
 });
